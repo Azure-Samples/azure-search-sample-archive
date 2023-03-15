@@ -1,57 +1,11 @@
-# Project Name
+# Azure Cognitive Search sample archive
 
-(short, 1-3 sentenced, description of the project)
+This repository contains code samples for Azure Cognitive Search that are no longer supported. This archive exists for samples that originated in repositories that are still active.
 
-## Features
+Documentation for archived samples can be found at [Cognitive Search documentation archive](https://learn.microsoft.com/previous-versions/azure/search/).
 
-This project framework provides the following features:
+## In this archive
 
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+| Sample | Archive date | Description |
+|--------|--------------|-------------|
+| create-first-app | March 2023 | "Create your first search app in C#" was a series of tutorials and code samples written for ASP.NET Core 3.1 and MVC. Lessons cover creating a basic search page, pagination, autocomplete and suggestions, faceted navigation, and sorting. It's replaced by an [updated MVC code sample](https://github.com/Azure-Samples/azure-search-dotnet-samples/tree/main/create-mvc-app) that demonstrates server-side operations for filtering and sorting. For client interaction, such as paging through results or facet navigation, see [this sample built on a React template](https://github.com/azure-samples/azure-search-dotnet-samples/tree/main/search-website-functions-v4).
